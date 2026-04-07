@@ -16,6 +16,7 @@ from recovery import (
     SimplifyStrategy,
     EscalateStrategy,
 )
+from healing_loop import SelfHealingLoop, HealingState, HealingRecord
 
 __all__ = [
     # Failure Event
@@ -34,4 +35,8 @@ __all__ = [
     "RetryDifferentApproachStrategy",
     "SimplifyStrategy",
     "EscalateStrategy",
+    # Healing Loop
+    "SelfHealingLoop",
+    "HealingState",
+    "HealingRecord",
 ]
